@@ -5,70 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/ec3dee1045.js" crossorigin="anonymous"></script>
-    
+
+    <!-- stylesheet -->
+     <link rel="stylesheet" href="styles.css">
     <title>home bodies</title>
 </head>
-<body>
+<body >
     <header>
                     <!-- navbar -->
-        <div>
-            <div>maker</div>
+        <div class="flex container navbar nav">
+            <div class="logo">Maker</div>
             <nav>
                 <ul>
-                    <li>
-                        <a href="#">Home</a>
-                     </li>
-                    <li>
-                        <a href="#">services</a>
-                     </li>
-                    <li>
-                        <a href="#">about</a>
-                     </li>
-                    <li>
-                        <a href="#">the team</a>
-                     </li>
-                    <li>
-                        <a href="#">pricing</a>
-                     </li>
-                    <li>
-                        <a href="#">contact</a>
-                     </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">the team</a></li>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">contact</a></li>
                 </ul>
             </nav>
         </div>
         <!-- hero -->
-         <div><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1></div>
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis quos fugit?</p>
-         <button>call to action</button>
-         <div><i class="fa-solid fa-camera"></i></div>
+         <div class="container flex hero">
+            <div>
+                <div class="ctp">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                </div>
+                <p class="ctp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus corporis quos fugit?</p>
+                <button>call to action</button>
+            </div>
+            <div class="hero-icon"><i class="fa-solid fa-photo-film fa-2xl" style="color: #000000;"></i></div>
+        </div>
     </header>
-    <main>
-        <div>
+    <!-- below hero -->
+    <main class="container">
+        <div class="cta container ctb">
             <h3>We Provide great services</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio ullam omnis ad delectus dolores provident!</p>
         </div>
-        <div>
+        <!-- cards -->
+        <div class="flex container ctc card">
             <div>
-                <i class="fa-solid fa-pencil"></i>
+                <i class="fa-solid fa-pencil fa-xl"></i>
                 <h4>Web Design</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div>
-                <i class="fa-solid fa-paintbrush"></i>
-                <h4>Web Design</h4>
+                <i class="fa-solid fa-paintbrush fa-xl"></i>
+                <h4>Identify & Branding</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div>
-                <i class="fa-solid fa-print"></i>
-                <h4>Web Design</h4>
+                <i class="fa-solid fa-print fa-xl"></i>
+                <h4>Print & packaging</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div>
-                <i class="fa-solid fa-pen"></i>
-                <h4>Web Design</h4>
+                <i class="fa-solid fa-pen fa-xl"></i>
+                <h4>Content Writing</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
     </main>
 </body>
 </html>
+
+

@@ -1,0 +1,156 @@
+* {
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-clr: rgb(238, 243, 247);
+	  --accent: rgba(75, 112, 144, 0.315);
+
+	  --light: rgb(255, 255, 255);
+	  --dark: rgb(61, 67, 85);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 60rem;
+    margin-inline: auto;
+}
+header {
+    background-color: var(--primary-clr);
+}
+
+.navbar {
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+
+.nav{
+    align-items: center;
+}
+.nav a {
+    margin-left: 16px;
+    color: var(--accent);
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px; /* Adjust margin as needed for spacing */
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.bold   {
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+
+
+.cta {
+    width: 50%;
+}
+.cta p {
+    margin-block: 16px;
+}
+
+.ctp {
+    height: auto;
+    margin: 30px;
+}
+
+.hero-icon{
+    font-size: 64px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.hero {
+    padding-block: 100px;
+    width: 50%;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 6px 2px;
+    background-color: var(--accent);
+    color: azure;
+    cursor: pointer;
+    margin: 10px;
+    float: center;
+    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.ctb {
+    text-align: center;
+    padding: 150px;
+}
+
+.ctc {
+    padding-bottom: 100px;
+    width: 70%;
+}
+
+.card{
+    text-align: center;
+}
+
+.card i {
+    padding: 50px;
+}
+
+.card p {
+    font-size: 12px; /* Adjust font size */
+    margin-top: 10px; /* Optional: Add space above paragraph */
+}
+
+.card h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px; /* Optional: Add space below heading */
+}
+
+.card div {
+    padding: 100;
+}
+.flex.container.ctc.card div {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.flex.container.ctc.card div:hover {
+    background-color: #f0f0f0; 
+    transform: translateY(-5px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
